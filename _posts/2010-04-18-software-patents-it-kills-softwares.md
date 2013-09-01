@@ -4,7 +4,7 @@ title: "A villian called Software Patents"
 tagline: "It kills software, innovation and development"
 category: tech
 modified: 2010-04-18
-tags: [FOSS, patent absurdity, software patents]
+tags: [foss, patent absurdity, software patents]
 ---
 
 Everything that happens, happens for a reason, and today I might have just found one good reason to be happy about legal litigations taking so much of time - “Software Patents”.
