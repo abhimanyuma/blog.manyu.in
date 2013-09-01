@@ -62,10 +62,8 @@ For the Argentinian Fans : To be honest, I was really afraid for 10 minutes befo
 
 Image Credits
 
-1. [Jepoirrer](http://www.flickr.com/photos/jepoirrier/) on Flickr for the Car Image.
-
-[2] <a title="Katem Claughlin" href="http://www.katemclaughlin.net/category/suicide/" target="_blank">Katem
-Claughlin</a> for the teen sleeping image
+1. [jepoirrer](http://www.flickr.com/photos/jepoirrier/) on Flickr for the Car Image.
+2. [departingxyz](http://www.flickr.com/photos/departingyyz/) on Flickr for the argentinian sleeping image
 
 
 
