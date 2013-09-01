@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /about/index.html
-title: About Me
+permalink: /projects/index.html
+title: My projects
 tagline: Manyu,Coden,Geek, whatever.
-tags: [about, Abhimanyu]
+tags: [about, Jekyll, theme, responsive]
 ---
 
 I am Abhimanyu, called either Manyu or Coden depending on who I am talking to. 
