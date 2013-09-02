@@ -1,8 +1,8 @@
-title:            Manyu's Blog
+title:            Manyu here.
 tagline:          There is a blog at level 0.
 description:      The content of this blog is a random function.
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://your-site.com
+url:              http://manyu.in
 
 # Owner/author information
 owner:
