@@ -11,9 +11,9 @@ tags: [what-if,india,hindi,english,economy,language]
 
 > *(Article 343 -1) "The official language of the (Indian) Union shall be Hindi in Devanagari script." (Article 343 -2) "Notwithstanding anything in clause (1), for a period of fifteen years from the commencement of this Constitution, the English language shall continue to be used for all the official purposes of the Union for which it was being used immediately before such commencement ”*[^languages-act]
 
-<figure>
-<img title="Cartoon published in Times Of India on 14th December 1958 by RK Laxman" src="http://epaper.timesofindia.com/Repository/getimage.dll?path=TOIM/2008/11/02/16/Img/Ar0160602.png" alt="Cartoon published in Times Of India on 14th December 1958 by RK Laxman" width="307" height="241" />
-<figcaption>Cartoon published in Times Of India on 14th December 1958 by RK Laxman</figcaption>
+<figure class="span-half pull-left">
+  <a href="http://epaper.timesofindia.com/Repository/getimage.dll?path=TOIM/2008/11/02/16/Img/Ar0160602.png"><img src="http://epaper.timesofindia.com/Repository/getimage.dll?path=TOIM/2008/11/02/16/Img/Ar0160602.png" alt="Cartoon published in Times Of India on 14th December 1958 by RK Laxman" ></a>
+  <figcaption><a href="http://epaper.timesofindia.com/Repository/getimage.dll?path=TOIM/2008/11/02/16/Img/Ar0160602.png">Cartoon published in Times Of India on 14th December 1958 by RK Laxman</a></figcaption>
 </figure>
 
 The constitution of India[^indian-constitution] is where the entire linguistic issues in India start from, it specified Hindi along with English as the official language, with English planned to be phased out in 15 years.

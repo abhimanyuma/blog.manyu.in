@@ -7,7 +7,7 @@ modified: 2010-06-29
 tags: [bollywood,bookies,conspiracy-theory,fifa,indian-government,random-creations,referee-errors,sharukh-khan,srk,world-cup]
 ---
 
-![FIFA Hijacked?](http://coda.co.za/blog/wp-content/uploads/2008/03/2010_logo_large.jpg "FIFA Hijacked?"){: .pull-left} Everyday during this World Cup the papers have had the same headlines over and over again, so much that even the people have gone tired of it, "Referee Error, FIFA should use a video referee". Now FIFA has given the explanation that referee decision challenges will stop the speed and beauty of the game, and so no matter what the technology they have, THEY CANNOT USE THEM. Well I do not believe them for one sec, and I have my solid reason for believing so. I believe FIFA has been taken over by a few people here are the possible hijackers of FIFA.
+Everyday during this World Cup the papers have had the same headlines over and over again, so much that even the people have gone tired of it, "Referee Error, FIFA should use a video referee". Now FIFA has given the explanation that referee decision challenges will stop the speed and beauty of the game, and so no matter what the technology they have, THEY CANNOT USE THEM. Well I do not believe them for one sec, and I have my solid reason for believing so. I believe FIFA has been taken over by a few people here are the possible hijackers of FIFA.
 
 
 ## The Bookies
@@ -31,8 +31,6 @@ The above two theory have all it takes to be real, but my bet is on the followin
 ## Bollywood
 
 For e.g., take this basic story line
-
-![Sharukh playing football](http://1.bp.blogspot.com/_3SdVQe5mP8U/SA9QleQWayI/AAAAAAAAA5k/ABMw3H8I25E/s320/Shahrukh+playing+football+%281%29.JPG "Shahrukh playing football"){: .pull-left}
 
 Introduce 2 heroes both who are fighting to get the beautiful,sexy and dumb female who is usually economically and religiously opposite to the heroes. They are really good friends, but this female would now cause all the fight between them. Even with all this the movie seems bland, so enter our villain, he will as is the case, offer one of them help, and strive to make them fight each other. The heroine finally makes her choice, and goes to her hero, and the other-almost-dead-from-villain-hero finally makes peace with the couple.
 

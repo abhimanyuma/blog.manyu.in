@@ -1,18 +1,17 @@
-  ----------------------------------------
-  layout: post
-  title: An "Indian" Proverb
-  ...
-  permalink: http://blog.manyu.in/?p=394
-  ...
-  post\_id: 394
-  categories: ---
-  - Uncategorized
-  ----------------------------------------
+---
+layout: post
+title: "An Indian Proverb"
+tagline: "Rehashing a native american proverb"
+modified: 2012-11-24
+category: personal
+tags: [india,native-america,freedom,women,rape,censorship,corruption]
+---
 
-bq. <p data-ft="{"type":1,"tn":"K"}"\>Only after the last women has
-been raped Only after the last artist has been silenced Only after
-the last penny has been stolen Only then will you find that Indian
-freedom is a myth.
+
+> Only after the last women has been raped <br />
+> Only after the last artist has been silenced <br /> 
+> Only after the last penny has been stolen <br />
+> Only then will you find that Indian freedom is a myth. <br />
 
 
 

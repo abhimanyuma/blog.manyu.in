@@ -177,6 +177,7 @@ svg:not(:root){overflow:hidden;}
 .half:before,.half:after{content:"";display:table;}
 .half:after{clear:both;}
 .half img{display:inline;float:left;width:50%;}
+.span-half {margin-left:10px; margin-right:10px;display:block;width: 50%;}
 .half figcaption{display:inline;float:left;width:100%;}
 .third{margin:0 auto;width:100%;*zoom:1;}.third:before,.third:after{display:table;content:"";}
 .third:after{clear:both;}

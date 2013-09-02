@@ -21,7 +21,7 @@ brilliant defence, or a brilliant counter.  Just saw that in action, and only o
 
 **F \#3**: 
 
-<figure class="span6 pull-right">
+<figure class="span-half pull-right">
 	<a href="http://farm4.staticflickr.com/3049/2549201644_5d52eee20a_z.jpg"><img src="http://farm4.staticflickr.com/3049/2549201644_5d52eee20a_z.jpg"></a>
 	<figcaption><a href="http://www.flickr.com/photos/57519914@N00/2549201644/in/photolist-4TgjQu-5bRMra-5fhf2K-5fmBQA-5iXUDA-5xm4mV-5FLZeJ-5Stvd9-5VACdk-5VFaoC-6jVTaX-6ntFZq-6r7dGW-6sJNt7-6sYdNL-6tZfoi-6u3zcS-6uoRLd-6wpSDT-74Zh7J-77RxhX-7dfXYp-7eNa1V-7uscuU-7uNDEn-9kH1Hq-f9GmGz-9kDXtF-9kDXr2-9kDXnZ-9au8dg-8SjNsY-9FeX18-9FhUxN-9FeW3Z-9FhUgq-9FhU5N-7TW84f-bCToGb-87QjVK-9aQTE4-9kH1Ko-bpbpHR-82VvKP-8HdMi9-bpbo6n-akPu4P-9RJYoS-95YxJR-8hixjA-batCiv" title="Argentina Van into Berlin Wall">Argentinan car after the crash</a>.</figcaption>
 </figure>
@@ -45,9 +45,10 @@ The site where Argentinian Car badly crashed into the Berlin Wall,the following 
 **F \#9**: Germany really hates homosexuals, for they denied Maradonna the chance to run naked, and also put down his "kiss-and-hug-argentinian-players" management technique
 
 **F \#10** :
-<figure class="span6 pull-right">
+
+<figure class="span-half pull-right">
 	<a href="http://farm8.staticflickr.com/7027/6746668395_5a15d2736d.jpg"><img src="http://farm8.staticflickr.com/7027/6746668395_5a15d2736d.jpg"></a>
-	<figcaption><a href="http://www.flickr.com/photos/59437997@N05/6746668395/in/photolist-bhbrsT-8iGHCg-92Pei8-bHDXwK-7G7ra5-9R5k2S-dsWkzf-7VNWQJ-9Zisjt-8kAYPt-98UhVM-8f77XJ-7QdfgF-8w1y8x-bzoKdz-9arFdA-7UrHsW-9FYsYu-d3mMZL-d3mN75-a8tHTK-d3QrpW-9fxgsy-9gx2Nm-7Q1gTH-dUPv7X-cCchrE-dMwyyM-7S67ye-8ExjXb-awMimY-a63CPa-d3QrtS-agAo6T-9R5mmb-7HQD4W-7CG9HW-9au1UU-7QiwR6-c6URjA-aqKWuw-bkjt85-buGnDR-dKurS7-dKoVMP-dKuijf-dKoNmV-dKufpy-dKusuo-dKurmC-dKumSN" title="Argentinian Dreaming on">Argentinan dreaming on</a>.</figcaption>
+	<figcaption><a href="http://www.flickr.com/photos/59437997@N05/6746668395/in/photolist-bhbrsT-8iGHCg-92Pei8-bHDXwK-7G7ra5-9R5k2S-dsWkzf-7VNWQJ-9Zisjt-8kAYPt-98UhVM-8f77XJ-7QdfgF-8w1y8x-bzoKdz-9arFdA-7UrHsW-9FYsYu-d3mMZL-d3mN75-a8tHTK-d3QrpW-9fxgsy-9gx2Nm-7Q1gTH-dUPv7X-cCchrE-dMwyyM-7S67ye-8ExjXb-awMimY-a63CPa-d3QrtS-agAo6T-9R5mmb-7HQD4W-7CG9HW-9au1UU-7QiwR6-c6URjA-aqKWuw-bkjt85-buGnDR-dKurS7-dKoVMP-dKuijf-dKoNmV-dKufpy-dKusuo-dKurmC-dKumSN" title="Argentinian Dreaming on">Argentinian dreaming on</a>.</figcaption>
 </figure>
 
 
