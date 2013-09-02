@@ -3,13 +3,9 @@ layout: page
 permalink: /projects/index.html
 title: My projects
 tagline: Manyu,Coden,Geek, whatever.
-tags: [about, Jekyll, theme, responsive]
+tags: [projects,github,coden]
 ---
 
-I am Abhimanyu, called either Manyu or Coden depending on who I am talking to. 
-I am a Masters Student at IIT Kanpur, who should have been done with his thesis by now
-but as with many things in college, got a bit delayed. A geek, with interests in 
-both Algorithms and the Web. I would be joining [HackerRank](http://hackerrank.com/)
-once I am done with my thesis, where I hope to "Learn,Build,Break."
+Please wait, or take a look at my [Github Profile](https://github.com/abhimanyuma)
 
 
