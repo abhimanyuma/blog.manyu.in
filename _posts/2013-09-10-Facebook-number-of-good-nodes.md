@@ -98,22 +98,40 @@ Consider a **DFS Tree** rooted at the source vertex. We can make the following t
 1. Any node that is an ancestor of \\\(t\\\) in the DFS Tree rooted at \\\(s\\\)is a good node. 
 2. Any node that is NOT an ancestor of \\\(t\\\) in the DFS Tree rooted at \\\(s\\\) has to use back edges in some form. 
 
-Now the first case is easy to check, so consider this graph. 
+Now the first case is easy to check, so consider this DFS Tree. 
+
+<figure>
+	<a href="https://dl-web.dropbox.com/get/Public/51.png?w=AACeqER2j0zQUjy7fzQx8tHT_dAqsAKOjfjKA86Auj8g_Q">
+	<img src="https://dl-web.dropbox.com/get/Public/51.png?w=AACeqER2j0zQUjy7fzQx8tHT_dAqsAKOjfjKA86Auj8g_Q" /></a>
+	<figcaption>The DFS Tree without backedges</figcaption>
+	</a>
+</figure>
 
 
 Here \\\(b\\\) is the common ancestor of the destination and the vertex we need to find if it is a good node. As it is it can easily be seen it cannot be, but we are yet to add the back edges. 
 
-**Lemma 1**: Using tree edges alone it is not possible to find a path from \\\(s\\\) to \\\(t\\\) through \\\(v\\\) if \\\(v\\\) is not an ancestor of \\\(t\\\)
+**Lemma 1**: _Using tree edges alone it is not possible to find a path from_ \\\(s\\\) _to_ \\\(t\\\) _through_ \\\(v\\\) _if_ \\\(v\\\) _is not an ancestor of_ \\\(t\\\)
 
 Now we look at the backedges, and we see something 
 
-_**Theorem 2**: \\\(v\\\) is a good node iff there is a backedge from \\\(v\\\) or one of it's predecessors to a node higher than the common ancestor of \\\(t\\\) and \\\(v\\\)_
+**Theorem 2**: \\\(v\\\) _is a good node iff there is a backedge from_ \\\(v\\\) _or one of it's predecessors to a node higher than the common ancestor of_ \\\(t\\\) _and_ \\\(v\\\)
 
 We shall prove this both ways. 
 
-1. Let there be \\\(u\\\) a predecessor of \\\(v\\\), and let it have a backedge to \\\(b\\\) . Then there definitely is a \\\(s \rightarrow ... \rightarrow b \rightarrow ... \rightarrow u \rightarrow ... \rightarrow v \rightarrow ... \rightarrow c \rightarrow ... \rightarrow t \\\) . Hence in this case it is quite easy to see the path. The image below will make it clear. 
+1. Let there be \\\(y\\\) a predecessor of \\\(v\\\), and let it have a backedge to \\\(b\\\) . Then there definitely is a \\\(s \rightarrow ... \rightarrow b \rightarrow ... \rightarrow y \rightarrow ... \rightarrow v \rightarrow ... \rightarrow c \rightarrow ... \rightarrow t \\\) . Hence in this case it is quite easy to see the path. The image below will make it clear. 
+<figure>
+	<a href="https://dl-web.dropbox.com/get/Public/66.png?w=AAAWbNykwsHCleVMNw96zcLCOCdpkikFPxhuTyuvBrAD1g">
+	<img src="https://dl-web.dropbox.com/get/Public/66.png?w=AAAWbNykwsHCleVMNw96zcLCOCdpkikFPxhuTyuvBrAD1g" /></a>
+	<figcaption>The DFS Tree with added backedge and path</figcaption>
+	</a>
+</figure>
 2. If there is no back edge to a higher node than the ancestor then we can see that we have to use at least one of the tree edges to get back to the common ancestor, since DFS,by design does not contain cross edges, and hence it is not possible. 
-
+<figure>
+	<a href="https://dl-web.dropbox.com/get/Public/be.png?w=AACT0S609OGKPbW4AIWOIKKJT0UsevGj0RZlPS2P_OOFBw">
+	<img src="https://dl-web.dropbox.com/get/Public/be.png?w=AACT0S609OGKPbW4AIWOIKKJT0UsevGj0RZlPS2P_OOFBw" /></a>
+	<figcaption>The DFS Tree with a bad node after adding backedges</figcaption>
+	</a>
+</figure>
 Now that the proof is done we will see how to implement this practically. We see that 
 
 + We need level information
@@ -134,7 +152,8 @@ t = destination
 def dfs (node,level)
 	node.visited = true
 	node.level=level
-	high=INF #Infinity
+	#We can atleast reach this level
+	high=level 
 	node.neighbours each do |neighbour|
 		if neighbour.visited == false
 			node.children << neighbour
@@ -146,13 +165,13 @@ def dfs (node,level)
 			high=min(high,neighbour.level)
 		end
 	end
-	node.highest\_vertex=high
+	node.highest_vertex=high
 end
 
-def set\_ancestor (node,level,special\_child = nil)
+def set_ancestor (node,level,specialchild = nil)
 	node.children.each do |child|
-		if child != special\_child
-			child.ancestor\_level = level
+		if child != specialchild
+			child.ancestor_level = level
 			#We don't want to change level 
 			#since it is of common ancestor
 			set_ancestor(child,level)
@@ -178,7 +197,7 @@ def main
 		current = current.parent
 	end
 	V.each do |v|
-		if v.highest\_vertex < v.ancestor\_level
+		if v.highest_vertex < v.ancestor_level
 			good << v
 		end
 	end
