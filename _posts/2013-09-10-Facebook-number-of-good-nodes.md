@@ -71,7 +71,7 @@ This clearly is not a polynomial time algorithm and the time complexity is equal
 
 ## A better non-optimal solution
 
-We see that the major problem with the last algorithm was that we were wasting too much time on already computed paths and vertices, so we see if we can do better. This was a solution I got from ()[] 
+We see that the major problem with the last algorithm was that we were wasting too much time on already computed paths and vertices, so we see if we can do better. This was a solution I got from Ravi Teja
 
 _Since this is a non-optimal solution, I will only discuss the idea_
 
@@ -204,3 +204,15 @@ def main
 	puts good.size
 end
 {% endhighlight %}
+
+## Next Set of Questions
+
+Faster simpler questions
+
+1. We have a matrix of size \\\( 2n \times 2n \\\) , which is filled with elements from \\\(1\\\) to \\\( 4n^2 \\\) continously in row major format (i.e first row has from \\\(1\\\) to \\\(2n\\\), the next row the next set of numbers and so on). **Prove that** the sum of each row and column is divisible by \\\(n\\\). 
+Tower Research, December 2012,IIT Kanpur, First Round Interview
+
+2. Given a unit square (a square with each side having unit length) **prove that** given any nine points inside the square the smallest triangle that can be constructed using three of the points as 3 vertices, has an area that is smaller than or equal to \\\(\frac{1}{8}^{th}\\\) of the size of the square. Ignore boundary cases of three points in a line, or more than one dot at the same place.
+Goldman Sachs, November 2012, All India Test 
+
+Answers next week. 
