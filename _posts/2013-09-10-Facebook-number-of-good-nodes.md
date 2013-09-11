@@ -154,8 +154,8 @@ V.Highest-Ancestor = V.Lowest-Ancestor-Level
 This recursive definition takes care of all successors of the children.The confusing part is with level numbers since the highest ancestor has the lowest level number. Once we get to terms with that it is easy.    
 3. We also need to set the common ancestor levels, this is what we do, we start at \\\(t\\\) and do the following
 
-    + For all the children of \(t\) , \(t\) itself is the lowest common ancestor. 
-    + Now if we go up from \(t\) to \(s\), for all other nodes, it is the first node they meet on this path. So we will go up the path till root, and for each node \(n\) we see set all the successors of that node except the one we came from to  have common ancestor as the node \(n\).
+    + For all the children of t , t itself is the lowest common ancestor. 
+    + Now if we go up from t to s, for all other nodes, it is the first node they meet on this path. So we will go up the path till root, and for each node n we see set all the successors of that node except the one we came from to  have common ancestor as the node n.
  
 {% highlight ruby %}
 G = V,E 
