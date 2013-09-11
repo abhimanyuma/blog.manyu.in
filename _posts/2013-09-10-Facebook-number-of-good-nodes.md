@@ -144,10 +144,12 @@ V.Highest-Ancestor = V.Lowest-Ancestor-Level
                    = min(Level of all backedges of V,
                    Highest-ancestors of it's children)
 {% endhighlight%}
-This recursive definition takes care of all successors of the children.The confusing part is with level numbers since the highest ancestor has the lowest level number. Once we get to terms with that it is easy. 
+This recursive definition takes care of all successors of the children.The confusing part is with level numbers since the highest ancestor has the lowest level number. Once we get to terms with that it is easy.    
 3. We also need to set the common ancestor levels, this is what we do, we start at \\\(t\\\) and not the following
+
     + For all the children of \\\(t\\\) , \\\(t\\\) itself is the lowest common ancestor. 
     + Now if we go up from \\\(t\\\) to \\\(s\\\), for all other nodes, it is the first node they meet on this path. So we will do the following
+
         1. Go up the path till root, and for each node set all the children to have lowest ancestor as the node on the path. 
 
 {% highlight ruby %}
