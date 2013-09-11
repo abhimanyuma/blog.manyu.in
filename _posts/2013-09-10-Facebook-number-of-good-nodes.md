@@ -101,10 +101,9 @@ Consider a **DFS Tree** rooted at the source vertex. We can make the following t
 Now the first case is easy to check, so consider this DFS Tree. 
 
 <figure>
-	<a href="https://dl-web.dropbox.com/get/Public/51.png?w=AACeqER2j0zQUjy7fzQx8tHT_dAqsAKOjfjKA86Auj8g_Q">
-	<img src="https://dl-web.dropbox.com/get/Public/51.png?w=AACeqER2j0zQUjy7fzQx8tHT_dAqsAKOjfjKA86Auj8g_Q" /></a>
+	<a href="/images/51.png">
+	<img src="/images/51.png" /></a>
 	<figcaption>The DFS Tree without backedges</figcaption>
-	</a>
 </figure>
 
 
@@ -120,17 +119,15 @@ We shall prove this both ways.
 
 1. Let there be \\\(y\\\) a predecessor of \\\(v\\\), and let it have a backedge to \\\(b\\\) . Then there definitely is a \\\(s \rightarrow ... \rightarrow b \rightarrow ... \rightarrow y \rightarrow ... \rightarrow v \rightarrow ... \rightarrow c \rightarrow ... \rightarrow t \\\) . Hence in this case it is quite easy to see the path. The image below will make it clear. 
 <figure>
-	<a href="https://dl-web.dropbox.com/get/Public/66.png?w=AAAWbNykwsHCleVMNw96zcLCOCdpkikFPxhuTyuvBrAD1g">
-	<img src="https://dl-web.dropbox.com/get/Public/66.png?w=AAAWbNykwsHCleVMNw96zcLCOCdpkikFPxhuTyuvBrAD1g" /></a>
+	<a href="/images/66.png">
+	<img src="/images/66.png" /></a>
 	<figcaption>The DFS Tree with added backedge and path</figcaption>
-	</a>
 </figure>
 2. If there is no back edge to a higher node than the ancestor then we can see that we have to use at least one of the tree edges to get back to the common ancestor, since DFS,by design does not contain cross edges, and hence it is not possible. 
 <figure>
-	<a href="https://dl-web.dropbox.com/get/Public/be.png?w=AACT0S609OGKPbW4AIWOIKKJT0UsevGj0RZlPS2P_OOFBw">
-	<img src="https://dl-web.dropbox.com/get/Public/be.png?w=AACT0S609OGKPbW4AIWOIKKJT0UsevGj0RZlPS2P_OOFBw" /></a>
+    <a href="/images/be.png">
+	<img src="/images/be.png" /></a>
 	<figcaption>The DFS Tree with a bad node after adding backedges</figcaption>
-	</a>
 </figure>
 Now that the proof is done we will see how to implement this practically. We see that 
 
