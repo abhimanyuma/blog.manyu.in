@@ -156,6 +156,12 @@ This recursive definition takes care of all successors of the children.The confu
 
     + For all the children of t , t itself is the lowest common ancestor. 
     + Now if we go up from t to s, for all other nodes, it is the first node they meet on this path. So we will go up the path till root, and for each node n we see set all the successors of that node except the one we came from to  have common ancestor as the node n.
+
+<figure>
+	<a href="/images/73.png">
+	<img src="/images/73.png" /></a>
+	<figcaption>Setting common ancestor levels</figcaption>
+</figure>
  
 {% highlight ruby %}
 G = V,E 
