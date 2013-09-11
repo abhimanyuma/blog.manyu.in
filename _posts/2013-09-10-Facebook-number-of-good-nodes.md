@@ -113,17 +113,17 @@ Here \\\(b\\\) is the common ancestor of the destination and the vertex we need 
 
 Now we look at the backedges, and we see something 
 
-**Theorem 2**: \\\(v\\\) _is a good node iff there is a backedge from_ \\\(v\\\) _or one of it's predecessors to a node higher than the common ancestor of_ \\\(t\\\) _and_ \\\(v\\\)
+**Theorem 2**: \\\(v\\\) _is a good node iff there is a backedge from_ \\\(v\\\) _or one of it's successors to a node higher than the common ancestor of_ \\\(t\\\) _and_ \\\(v\\\)
 
 We shall prove this both ways. 
 
-1. Let there be \\\(y\\\) a predecessor of \\\(v\\\), and let it have a backedge to \\\(b\\\) . Then there definitely is a \\\(s \rightarrow ... \rightarrow b \rightarrow ... \rightarrow y \rightarrow ... \rightarrow v \rightarrow ... \rightarrow c \rightarrow ... \rightarrow t \\\) . Hence in this case it is quite easy to see the path. The image below will make it clear. 
+1. Let there be \\\(y\\\) a successor of \\\(v\\\), and let it have a backedge to \\\(b\\\) . Then there definitely is a \\\(s \rightarrow ... \rightarrow b \rightarrow ... \rightarrow y \rightarrow ... \rightarrow v \rightarrow ... \rightarrow c \rightarrow ... \rightarrow t \\\) . Hence in this case it is quite easy to see the path. The image below will make it clear. 
 <figure>
 	<a href="/images/66.png">
 	<img src="/images/66.png" /></a>
 	<figcaption>The DFS Tree with added backedge and path</figcaption>
 </figure>
-2. If there is no back edge to a higher node than the ancestor then we can see that we have to use at least one of the tree edges to get back to the common ancestor, since DFS,by design does not contain cross edges, and hence it is not possible. 
+2. If there is no back edge to a higher node than the common ancestor then we can see that we have to use at least one of the tree edges to get back to the common ancestor, since DFS,by design does not contain cross edges, and hence it is not possible to get to \\\(t\\\) without using a vertex twice.
 <figure>
     <a href="/images/be.png">
 	<img src="/images/be.png" /></a>
@@ -138,8 +138,17 @@ Now that the proof is done we will see how to implement this practically. We see
 So essentially algorithm is this. 
 
 1. Do a DFS from \\\(s\\\) and get the DFS tree rooted at \\\(s\\\). 
-2. During this step if we find a back edge we update the highest\_vertex counter, as max of highest\_vertex of children and the backedge of these. 
-3. Once done we do a common ancestor assignment by traversing from \\\(t\\\) upwards till \\\(s\\\)
+2. During this step if we find a back edge we update the highest\_vertex (which is the vertex with the **lowest** level number) variable. Essentially it can be defined recursively as 
+{% highlight ruby %}
+V.Highest-Ancestor = V.Lowest-Ancestor-Level
+                   = min(Level of all backedges of V,
+                   Highest-ancestors of it's children)
+{% endhighlight%}
+This recursive definition takes care of all successors of the children.The confusing part is with level numbers since the highest ancestor has the lowest level number. Once we get to terms with that it is easy. 
+3. We also need to set the common ancestor levels, this is what we do, we start at \\\(t\\\) and not the following
+    + For all the children of \\\(t\\\) , \\\(t\\\) itself is the lowest common ancestor. 
+    + Now if we go up from \\\(t\\\) to \\\(s\\\), for all other nodes, it is the first node they meet on this path. So we will do the following
+        1. Go up the path till root, and for each node set all the children to have lowest ancestor as the node on the path. 
 
 {% highlight ruby %}
 G = V,E 
@@ -166,6 +175,9 @@ def dfs (node,level)
 end
 
 def set_ancestor (node,level,specialchild = nil)
+	#One of the nodes on the path
+	#Set all it's children and their children 
+	#to have the level as node's
 	node.children.each do |child|
 		if child != specialchild
 			child.ancestor_level = level
@@ -206,10 +218,10 @@ end
 
 Faster simpler questions
 
-1. We have a matrix of size \\\( 2n \times 2n \\\) , which is filled with elements from \\\(1\\\) to \\\( 4n^2 \\\) continously in row major format (i.e first row has from \\\(1\\\) to \\\(2n\\\), the next row the next set of numbers and so on). **Prove that** the sum of each row and column is divisible by \\\(n\\\). 
+1. We have a matrix of size \\\( 2n \times 2n \\\) , which is filled with elements from \\\(1\\\) to \\\( 4n^2 \\\) continously in row major format (i.e first row has from \\\(1\\\) to \\\(2n\\\), the next row the next set of numbers and so on). **Prove that** the sum of each row and column is divisible by \\\(n\\\).   
 Tower Research, December 2012,IIT Kanpur, First Round Interview
 
-2. Given a unit square (a square with each side having unit length) **prove that** given any nine points inside the square the smallest triangle that can be constructed using three of the points as 3 vertices, has an area that is smaller than or equal to \\\(\frac{1}{8}^{th}\\\) of the size of the square. Ignore boundary cases of three points in a line, or more than one dot at the same place.
+2. Given a unit square (a square with each side having unit length) **prove that** given any nine points inside the square the smallest triangle that can be constructed using three of the points as 3 vertices, has an area that is smaller than or equal to \\\(\frac{1}{8}^{th}\\\) of the size of the square. Ignore boundary cases of three points in a line, or more than one dot at the same place.   
 Goldman Sachs, November 2012, All India Test 
 
 Answers next week. 
