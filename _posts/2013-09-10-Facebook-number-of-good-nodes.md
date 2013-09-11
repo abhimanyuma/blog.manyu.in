@@ -63,7 +63,14 @@ def main
 		v.good = false
 		v.visited = false
 	end
+	good=[]
 	search(s)
+	V.each do |v|
+		if v.good
+			good << v
+		end
+	end
+	puts good.size
 end
 {% endhighlight %}
 
@@ -145,18 +152,16 @@ V.Highest-Ancestor = V.Lowest-Ancestor-Level
                    Highest-ancestors of it's children)
 {% endhighlight%}
 This recursive definition takes care of all successors of the children.The confusing part is with level numbers since the highest ancestor has the lowest level number. Once we get to terms with that it is easy.    
-3. We also need to set the common ancestor levels, this is what we do, we start at \\\(t\\\) and not the following
+3. We also need to set the common ancestor levels, this is what we do, we start at \\\(t\\\) and do the following
 
-    + For all the children of \\\(t\\\) , \\\(t\\\) itself is the lowest common ancestor. 
-    + Now if we go up from \\\(t\\\) to \\\(s\\\), for all other nodes, it is the first node they meet on this path. So we will do the following
-
-        1. Go up the path till root, and for each node set all the children to have lowest ancestor as the node on the path. 
-
+    + For all the children of \(t\) , \(t\) itself is the lowest common ancestor. 
+    + Now if we go up from \(t\) to \(s\), for all other nodes, it is the first node they meet on this path. So we will go up the path till root, and for each node \(n\) we see set all the successors of that node except the one we came from to  have common ancestor as the node \(n\).
+ 
 {% highlight ruby %}
 G = V,E 
 s = start
 t = destination
-
+good = []
 def dfs (node,level)
 	node.visited = true
 	node.level=level
@@ -209,6 +214,7 @@ def main
 	end
 	V.each do |v|
 		if v.highest_vertex < v.ancestor_level
+			v.good = true
 			good << v
 		end
 	end
