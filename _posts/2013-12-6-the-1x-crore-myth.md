@@ -14,16 +14,14 @@ Now let me just go into what a normal US Package at IITs look like, and every co
 Base Salary (Cash components): **$100K — $120K** <br />
 This is the total encashable components, it may include Housing and Transportation Allowance, both of which may be encashable only upto actual limits. Also look at the high tax rate given below applicable in California (**~36%**)
 
-Joining & Relocation: **$10K — $20K** <br/>
+Joining & Relocation: **$10K — $20K** 
 
-Yearly variable (includes performance and loyalty) Bonus :**$10K — $15K** <br/>
+Yearly variable (includes performance and loyalty) Bonus :**$10K — $15K** 
 
-Stock RSU : **$50K — $70K ** (or they may not offer it) <br/>
-
+Stock RSU : **$50K — $70K** (or they may not offer it) <br/>
 Stock RSU is actually paid over 4 years but included “completely” in the first year package. (Yes, 4 years of RSU in the package)
 
 Non Cash Components:**$0K — $50K** <br/>
-
 Most companies don’t mention this in their CTC, but if mentioned it is not encashable, and only benefits like Health, and Dental Insurance, which every company has to take if they need to give you a job.
 
 As you can see the $210K offer is somewhere in this whole thing. The joining bonus is a one time pay to take care of all your shifting (I am combining joining with relocation), while the performance bonus is performance dependent. At the core every company had a variation of only $20K in recurring cash component.
@@ -38,12 +36,10 @@ This means that you get 50% of the said RSU at the end of 4 years ONLY. Given th
 
 Now once that is take into consideration the package comes down to normal levels as $120K in cash per year and about $7.5K in stocks, and this is what you should judge the package by.
 
-Also to note is that converting it straight off from $120K 120*62.5 is pointless since the following are the rough data that you can expect
+Also to note is that converting it straight off from $120K 120x62.5 is pointless since the following are the rough data that you can expect
 
-**Rent : $10-15K**
-
-**Food** : Varies depending on company policy, but a normal meal costs $8-$10.
-
+**Rent : $10-15K** <br />
+**Food** : Varies depending on company policy, but a normal meal costs $8-$10. <br />
 **Tax : ~36%**
 
 The newspapers avoid all of this information completely and just talk about the US x Conversion rate cost, which I find completely absurd.  
