@@ -17,8 +17,10 @@ Usually what happens in Hackathons is the following
 
 Usually most of the products make use of some unique point about something, and extend it. This time however the team that won the first prize did something unique. They took a product and used it's weak point to build their hack. 
 
-So the hack was done by [Shubdeep Kocchar](https://www.facebook.com/shubhdeepk) and his friends, they built an app that aimed to improve your pronounciation. The way they did is that that they built upon the fact that the "Speech to Text" in Windows sucks, and will accept your word ONLY IF spoken exactly as they have it in their phonetic dictionary, even slight variations do NOT work. I do not know who in their team came up with the idea, but it was one hell of an idea, and with a really good interface they developed, it turned out to be awesome. 
+So the hack was done by [Aayush Mudgal](https://www.facebook.com/aayush.mudgal) and his friends, they built an app that aimed to improve your English, called GrammaFone. It had an awesome set of features which included ways to improve your grammar, vocabulary and pronunciation. The app did the job awesomely and had an amazing interface as well. 
 
-So they used the fact that the "Speech to Text" option in Windows was bad, and built up a hack on top of that. This is for me the first time, I am seeing someone use the disadvantage of a product and making an app out of it. 
+What stood out to me, and even probably to the judges was their *pronounciation* correcter, among the three I found that the most novel. They way they did it, is why I think it is one of the smartest hacks I have seen. The way they did is that that they built upon the fact that the "Speech to Text" in Windows sucks, and will accept your word ONLY IF spoken exactly as they have it in their phonetic dictionary, even slight variations do NOT work. I do not know who in their team came up with the idea, but it was one hell of an idea, and with a really good interface they developed, it turned out to be awesome. 
 
-For this they were awarded the first prize (Nokia Lumia 520) by Microsoft. I dunno about the others, but for me, it was bit of ironically humorous.  
+So they used the fact that the "Speech to Text" option in Windows was bad, and built up a hack on top of that. This is for me the first time, I am seeing someone use the disadvantage of a product (in a positive way) and making an app out of it. 
+
+For this they were among the toppers and got Nokia Lumia 520 by Microsoft. I dunno about the others, but for me, it was slightly ironically humorous
