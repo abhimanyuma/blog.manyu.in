@@ -1,0 +1,43 @@
+---
+layout: post
+title: "AAP, BJP, The Media, & Harry Potter"
+tagline: "AAP is going to hurt BJP, and it is BJP's fault"
+category: personal
+modified: 2014-01-11
+tags: [aap,aam-aadmi-party,bjp,bharatiya-janata-party,india,congress,media,paid-media,news,harry-potter,voldemort]
+---
+
+*Disclaimers: I am an AAP supporter. The article is based on my __limited personal__ observations. I make no claim that this is a good reproduction of the national scenario*
+
+Aam Aadmi Party has been the craze of a nation, that had almost lost all interest in politics, for over a year now. It has rejuvenated the political rhetoric that people got too bored of talking about. 
+
+December 2013, will be one month, that will be remembered for a long time. I can not and will not say that 15-30 years down the lane AAP will be relevant or exists, but I am sure that the idea AAP brought forward will remain.
+
+It is January 2014 now, AAP is now running the government in Delhi (and acc. to me doing quite well and definitely better than your normal governments), which I think it will run till post 2014 Lok Sabha elections, at which point Congress would have cases against them, and realize that supporting AAP for putting up a farce that they are against corruption, is not worth the effort, and neither has it got them the results they want, and I just hope AAP does enough of work till then (i.e 5 years worth of work expected out of normal governments) to counteract the BJP, which I think they would. This is one reason why I wanted them to form the government, it would give them 6 months + 6 months (restricted caretaker) of governance to prove to Delhites that they are capable.
+
+Now they are making a play for the 2014 Lok Sabha Elections, which I am not yet completely sold on the idea, while I do believe that they would do better in the seats they actually win, I just think they need a better machinery as a party in place, before they make that play. To reiterate, I don't they they have an issue with the "experience" in governance, but I do believe they need a better party machinery in place. If we were going by experience then to be fair, no one has the experience in the kind of politics AAP, has introduced, one that involves Voluntary Transparency, and a higher level of democratic involvement. I believe that even if you simply take out corruption from the "Executive" that in itself, will more than make up for all the lack of experience. At a national level we already have enough and more policies that have vision, but have not been implemented. 
+
+The Bharatiya Janata Party is definitely not liking this move. Already upset that AAP spoiled the wonderful majority they would have got in New Delhi, they feel AAP might do the same for them in Lok Sabha. I do agree to this, but I think it is BJP's fault in itself. BJP till now has only had on a massive scale two points.
+
+1. We have THE Narendra Modi
+2. We are NOT Congress.
+
+The problem with the first is that as anything, ANYTHING that has to do with Modi, the people are very much polarized on this one, while there is a portion which sees him for the growth of Gujarat, there is the other section, which sees him for his inability(or even calculated indecision) to not act during the riots. BJP knows that while it would win the BJP seats in the Hindi Belt of the nation, it would not win them that many seats elsewhere, for which they need a better reason, and they identified the second one as the reason. 
+
+The second reason is the simplest of them all, we have had an absolutely useless and damaging 5 years of governance by the United *Progressive* Alliance, that has seemed like a startup growing at an explosive pace with their product as corruption. The problem BJP is facing is with AAP, in the fray, they are no longer the default anti-Congress choice, they now have to fight for the default choice. If anything given that **corruption** is the closest Congress have ever had as something close to an ideology, AAP is the better opposite to Congress, not BJP. 
+ 
+The problem is blaming AAP for stealing them of the votes that would have come their way, without their efforts is laziness and bullshit. The market out there in India when it comes to votes is NOT a restricted two party system like that of USA, but allows more contenders to come. Combine that with the third and the fourth fronts, BJP finally is not looking at gaining as much they expected of the anti-Congress pie, and this pisses them off even more. This is like people in old traditional landed caste families in Kerala, complaining of the fact that there are too many people in the family when their ancestral wealth is being divided, considering that they have not worked anything towards the share of the wealth divided, and has been focused only on their own separate wealth. 
+
+The media has not surprisingly decided to focus on AAP for good or bad, and started to analyze and over analyze each and every one of AAP's movement. Truth be told, AAP definitely owes a lot of it's success to the media, and the immense amount of free publicity they have done for them. I have had a lot of people tell me that there is a paid-media behind this, which I don't think is true, what I think is that the current media attention of AAP is just the result of public's interest in them. Imagine if Bangladesh were to win the next ICC World Cup, wouldn't the sports media go crazy. That is exactly what has happened.
+
+Media organizations have realized that AAP is good for their TRP, and is going with it, sadly I think the recent move by BJP is only helping it. To bring back the family analogy; BJP is doing just what many kids do when a younger sibling is born to them, cry out and vent that they are no longer the darling of the family or the center point of the attention. My advice to BJP in this regard is to grow up, acknowledge that there are other people, and buckle up. Sadly BJP seems to have taken the route which involves basically bad-mouthing the new born kid to the people in the family. This but sadly puts AAP in media focus again and again. 
+
+I find it ironic that the same BJP supporters that claimed that AAP was disproportionately targeted by the media, are doing the same. A simple look at their tweet history or Facebook Timeline, is enough to see that, they are doing the exact same thing they are accusing the media off, somehow Congress has sunk into irrelevancy and this is what I think they want. 
+
+The problem is often in politics, how you view your opponent itself matters. Now to quote Harry Potter - 
+
+> "The one with the power to vanquish the Dark Lord approaches ... born to those who have thrice defied him, born as the seventh month dies ... and the Dark Lord will mark him as his equal, but he will have power the Dark Lord knows not ... and either must die at the hand of the other for neither can live while the other survives ... the one with the power to vanquish the Dark Lord will be born as the seventh month dies ..."
+
+The important point here is that Harry Potter became the chosen one, because Lord Voldemort chose him to be, similarly given Congress and AAP, BJP is now not going behind the one with as is said by BJP "Years of experience" but the one that has just stepped in governance, and is just over a year old. By relentlessly going after AAP, BJP is giving the credibility to AAP, that I think AAP itself is trying hard to get. By viewing them as the prime competitor, they are doing more to bring AAP to a national level than AAP themselves. By challenging AAP at every single instance, saying what they can, they should, and they must not do, they are in effect pushing AAP to play on a national level. 
+
+To be quite honest according to me BJP should and hopefully would shift the dialogue back to what they would be able to do, rather than this relentless chanting of "AAP and Congress bhai bhai". For example even looking at the supporters of BJP it is hard to find anyone talking about Madhya Pradesh, thankfully I found one yesterday (from an MPite), but comparing that to the anti-AAP posts, they are outnumbered. The agricultural growth there when the nation is wondering what is happening, is a prime example I am seeing totally being missed. Dear BJP, leave aside AAP, there are things you can talk about, thing you have done. Talk about you focus on infrastructure development, leave aside petty politics. Please focus on that. Let the nation decide, because if you stick to what you are currently doing, you are just being a sissy who can't handle competition. 
