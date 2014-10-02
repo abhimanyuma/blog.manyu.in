@@ -2,7 +2,7 @@ title:            Manyu here.
 tagline:          There is a blog at level 0.
 description:      The content of this blog is a random function.
 #Comment out url when working locally to resolve base urls correctly
-url:              http://manyu.in
+url:              //manyu.in
 
 # Owner/author information
 owner:
@@ -14,18 +14,18 @@ owner:
   github:         abhimanyuma
   twitter:        abhimanyuma
   facebook:       abhimanyu.m.a
-  linkedin:       
-  instagram:      
-  lastfm:         
-  tumblr:         
+  linkedin:
+  instagram:
+  lastfm:
+  tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics:
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -57,7 +57,7 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
