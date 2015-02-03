@@ -2,7 +2,7 @@ title:            Manyu here.
 tagline:          There is a blog at level 0.
 description:      The content of this blog is a random function.
 #Comment out url when working locally to resolve base urls correctly
-url:              //manyu.in
+url:              #//manyu.in
 
 # Owner/author information
 owner:
@@ -40,10 +40,12 @@ links:
     url: /projects
   - title: About
     url: /about
+  - title: Recruitment
+    url: /recruitment
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Kolkata
 future:      true
-pygments:    true
+highlighter: pygments
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
