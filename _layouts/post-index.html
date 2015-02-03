@@ -13,31 +13,11 @@
 
 {% include _navigation.html %}
 
-<<<<<<< HEAD
-<div class="image-wrap">
-  <div class="headline-wrap">
-    <h1>{{ page.title }}</h1>
-    {% if page.tagline %}<h2 class="hidden-phone">{{ page.tagline }}</h2>{% endif %}
-  </div><!--/ .headline-wrap -->
-  <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image">
-</div><!-- /.image-wrap -->
-
-<div class="article-author-top">
-  {% include author-bio.html %}
-</div>
-
-<div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  {% for post in site.posts %}
-  {% unless post.next %}
-    <h3>{{ post.date | date: '%Y' }}</h3>
-    <hr />
-=======
 {% if page.image.feature %}
   <div class="image-wrap">
   <img src=
     {% if page.image.feature contains 'http' %}
       "{{ page.image.feature }}"
->>>>>>> 3b2e58c7d83f9f11728adb1259660ac3fa2e180a
     {% else %}
       "{{ site.url }}/images/{{ page.image.feature }}"
     {% endif %}
@@ -54,7 +34,7 @@
   </div>
   <div id="index">
     <h1>{{ page.title }}</h1>
-    {% for post in site.posts %}  
+    {% for post in site.posts %}
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
       {% else %}
@@ -83,6 +63,6 @@
 </div><!-- /.footer-wrap -->
 
 {% include _scripts.html %}
-  
+
 </body>
 </html>

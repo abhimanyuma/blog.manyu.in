@@ -4,14 +4,12 @@
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
-{% include head.html %}
+{% include _head.html %}
 </head>
 
 <body class="articles" itemscope itemtype="http://schema.org/WebPage">
 
-{% include chrome-frame.html %}
-
-{% include navigation.html %}
+{% include _navigation.html %}
 
 <div class="image-wrap">
   <div class="headline-wrap">
@@ -22,12 +20,12 @@
 </div><!-- /.image-wrap -->
 
 <div class="article-author-top">
-  {% include author-bio.html %}
+  {% include _author-bio.html %}
 </div>
 
 <div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
   {% for post in site.posts %}
-  {% if post.category == 'personal' %}   
+  {% if post.category == 'personal' %}
   {% unless post.next %}
     <h3>{{ post.date | date: '%Y' }}</h3>
     <hr />
@@ -49,11 +47,11 @@
 
 <div class="footer-wrap">
   <footer>
-    {% include footer.html %}
+    {% include _footer.html %}
   </footer>
 </div><!-- /.footer-wrap -->
 
-{% include scripts.html %}
-  
+{% include _scripts.html %}
+
 </body>
 </html>
