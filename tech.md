@@ -5,5 +5,7 @@ title: Tech
 tagline: All my technical posts
 tags: [blog, tech]
 image:
-  feature: texture-feature-03.jpg
+  feature: sample-image-3.jpg
+  credit: WeGraphics
+  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---

@@ -5,5 +5,7 @@ title: Personal
 tagline: All my non-technical posts
 tags: [blog, personal]
 image:
-  feature: texture-feature-03.jpg
+  feature: sample-image-2.jpg
+  credit: WeGraphics
+  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---

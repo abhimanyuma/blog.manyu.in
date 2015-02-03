@@ -4,5 +4,7 @@ permalink: /articles/index.html
 title: Articles
 tagline: All my articles
 image:
-  feature: texture-feature-03.jpg
+  feature: sample-image-1.jpg
+  credit: WeGraphics
+  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
